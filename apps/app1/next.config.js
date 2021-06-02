@@ -10,18 +10,15 @@ module.exports = withNx({
     svgr: true,
   },
   async rewrites() {
+    console.log(`${URL}/app2`,"inside Rewrites =>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> ")
     return [
       {
-        source: '/:path*',
-        destination: `/:path*`,
+        source: '/app2',
+        destination: `${URL}/app2`,
       },
       {
-        source: '/blog',
-        destination: `${URL}/blog`,
-      },
-      {
-        source: '/blog/:path*',
-        destination: `${URL}/blog/:path*`,
+        source: '/app3',
+        destination: `${URL}/app3`,
       },
     ]
   },
