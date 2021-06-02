@@ -20,7 +20,9 @@ module.exports = withNx({
         source: '/app3',
         destination: `${URL}/app3`,
       },
+
     ]
   },
+  target: 'experimental-serverless-trace'
   
 });
