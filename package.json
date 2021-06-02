@@ -23,7 +23,8 @@
     "update": "nx migrate latest",
     "workspace-generator": "nx workspace-generator",
     "dep-graph": "nx dep-graph",
-    "help": "nx help"
+    "help": "nx help",
+    "postbuild": "next-on-netlify"
   },
   "private": true,
   "dependencies": {
@@ -31,6 +32,7 @@
     "core-js": "^3.6.5",
     "document-register-element": "1.13.1",
     "next": "10.2.0",
+    "next-on-netlify": "^3.0.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "regenerator-runtime": "0.13.7",

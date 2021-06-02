@@ -23,6 +23,6 @@ module.exports = withNx({
 
     ]
   },
-  target: 'experimental-serverless-trace'
+  target: "serverless",
   
 });
