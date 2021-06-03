@@ -1,4 +1,5 @@
 import {Header} from "@monorepo-deploy/components"
+import Link from "next/link";
 
 const App1 = () => {
   return (
@@ -6,7 +7,9 @@ const App1 = () => {
     <Header/>
     <h2>App1</h2>
     <div>
-        <a href="/app2">App2</a>
+       <Link href='/app2'>
+        <a>App 2</a>
+       </Link>
       </div>
     </div>
   )

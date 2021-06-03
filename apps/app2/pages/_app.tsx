@@ -8,9 +8,12 @@ function CustomApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Welcome to app2!</title>
+        <meta name="description" content="Free Web tutorials"></meta>
+        <title>Welcome to app two working!</title>
       </Head>
-      <div className="app">
+      <NxLogo/>
+      {/* <h1>App 2 _app.tsx</h1> */}
+      <div>
         <main>
           <Component {...pageProps} />
         </main>
