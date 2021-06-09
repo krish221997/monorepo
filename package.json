@@ -5,6 +5,9 @@
   "scripts": {
     "nx": "nx",
     "start": "nx run-many --target=serve --all=true --parallel=true",
+    "build:app1": "nx build app1",
+    "build:app2": "nx build app2",
+    "build:app3": "nx build app3",
     "build": "nx run-many --target=build --all=true --parallel=true",
     "test": "nx test",
     "lint": "nx workspace-lint && nx lint",
