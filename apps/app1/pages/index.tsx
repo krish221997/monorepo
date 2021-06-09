@@ -5,7 +5,7 @@ const App1 = () => {
   return (
     <div style={{width: "100%", alignContent: "center"}}>
     <Header/>
-    <h2>App1</h2>
+    <h2>App1 works well</h2>
     <div>
        <Link href='/app2'>
         <a>App 2</a>

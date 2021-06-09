@@ -5,6 +5,7 @@ const { URL, URL2, URL3 } = process.env
 
 module.exports = withNx({
   // target: 'experimental-serverless-trace',
+  basePath: `/app1`,
   async rewrites() {
     return [
       {
